@@ -20,6 +20,15 @@ $fruits["peach"] = "もも";
 var_dump($fruits);
 
 echo "<br>";
+$colors = ["red" => "赤", "blue" => "青", "green" => "緑"];
+var_dump($colors);
+
+echo "<br>";
+$colors["yellow"] = "黄色";
+var_dump($colors);
+
+
+echo "<br>";
 echo "1.プルリクエスト"."<br>";
 echo "開発者のローカルリポジトリで加えた変更を、他の開発者に知らせ、レビューしてもらう機能"."<br>";
 echo "2.Git Flow"."<br>";
