@@ -31,7 +31,7 @@ public class Task1_2 {
         int[] intArray = { 10, 20, 30, 40, 50 };
 
         // ⑥下記の処理について、何をしているのかコメントを記入してください。
-        // intArray配列の2番目と5番目の要素を出力している
+        // intArray配列の2番目と5番目の要素を出力して、足している
         System.out.println(intArray[1] + intArray[4]);
 
     }
