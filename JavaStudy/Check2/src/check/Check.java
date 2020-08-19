@@ -6,18 +6,16 @@ public class Check {
 private static String firstName="坂田";
 private static String lastName="優也";
 
-private void printName(String firstName,String lastName) {
+private static void printName(String firstName,String lastName) {
     System.out.println("printNameメソッド → "+firstName+lastName);
 }
    
     public static void main(String[] args) {
         
-Check check=new Check();
-check.printName(firstName, lastName);
 
-String name=Constants.CHECK_CLASS_JAVA;
-String masterName=Constants.CHECK_CLASS_HOGE;
-Pet pet=new Pet(name, masterName);
+printName(firstName, lastName);
+
+Pet pet=new Pet(Constants.CHECK_CLASS_JAVA,Constants.CHECK_CLASS_HOGE);
 pet.introduce();
 
 
