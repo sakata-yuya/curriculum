@@ -1,0 +1,49 @@
+@media screen and (max-width: 479px) {
+    .main {
+        width: 200px;
+    }
+
+    .header {
+        width: 200px;
+        height: 200px;
+        position: relative;
+    }
+
+    .header-right {
+        position: absolute;
+        right: 70px;
+        width: 60px;
+        height: 160px;
+    }
+
+    .header-ri-con {
+        float: none;
+    }
+
+    .left {
+        width: 200px;
+        height: 100px;
+    }
+
+    .right {
+        width: 200px;
+        height: 210px;
+        position: relative;
+    }
+
+    .rightcontents {
+        margin: 0;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+
+    .footer {
+        width: 200px;
+    }
+
+    .contents {
+        float: none;
+    }
+
+}
