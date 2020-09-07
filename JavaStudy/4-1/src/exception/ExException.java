@@ -104,7 +104,7 @@ public class ExException {
      */
     // ここへ記述
     private static void NULLP() throws NullPointerException {
-        System.out.println(CONST_MSG_NULLPO);
+        throw new NullPointerException(CONST_MSG_NULLPO);
     }
 
     /**
